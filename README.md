@@ -1,20 +1,17 @@
 # LetsRent
 ----------------------------
-----------------------------
 Technologies/Framework used:
 
-Angular 2
-.NET WebAPI
-SQL Server
-----------------------------
+1. Angular 2
+2. .NET WebAPI
+3. SQL Server
 ----------------------------
 Tools
 
-Visual Studio 2015 and Visual Studio 2017
-SQL Server Management Studio
-Git
-SourceTree
-----------------------------
+1. Visual Studio 2015 and Visual Studio 2017
+2. SQL Server Management Studio
+3. Git
+4. SourceTree
 ----------------------------
 Programming Languages
 
