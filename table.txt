@@ -5,3 +5,12 @@ CREATE TABLE User_Product(
     CONSTRAINT FK_User FOREIGN KEY (UserID) REFERENCES [User] (UserID),
     CONSTRAINT FK_Product FOREIGN KEY (ProductID) REFERENCES [Product] (ProductID)
 );
+
+
+
+CREATE TABLE Purchases(
+	UserID int,
+	ProductID int,
+	PurchaseID int primary key IDENTITY(1,1),
+	PurchaseDate date
+);
