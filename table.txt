@@ -1,0 +1,7 @@
+CREATE TABLE User_Product(
+	UserID int,
+	ProductID int,
+	CONSTRAINT User_ProductID PRIMARY KEY (UserID, ProductID),
+    CONSTRAINT FK_User FOREIGN KEY (UserID) REFERENCES [User] (UserID),
+    CONSTRAINT FK_Product FOREIGN KEY (ProductID) REFERENCES [Product] (ProductID)
+);
